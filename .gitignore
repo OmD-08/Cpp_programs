@@ -1,1 +1,11 @@
 *.pdf
+# Ignore the files genereted after execuiton of codes
+*.exe
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore temporary build outputs
+*.out
+*.log
