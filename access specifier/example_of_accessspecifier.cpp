@@ -17,6 +17,8 @@ class Example{
 		}	 
 };
 
+// Protected is widely used in Inheritance. It is used in derived class so that you can change the value in derived class only but not in main()
+
 int main(){
 
 Example obj;
