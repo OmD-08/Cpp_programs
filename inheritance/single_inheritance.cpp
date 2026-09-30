@@ -15,6 +15,15 @@ class Child : public Parent{  // 'Class Child' is derived from 'Class Parent'
 		}
 };
 
+/* Note:
+1. Default visibility mode is private
+2.
+Public Visibility Mode: Public members of the base class becomes Public members of the derived class
+3.
+Private Visibility Mode: Public members of the base class becomes Private members of the derived class
+4. Private members are never inherited
+*/
+
 int main(){
 
 Child obj;
