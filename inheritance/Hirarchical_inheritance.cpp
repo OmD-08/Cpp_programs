@@ -23,6 +23,9 @@ class Cat : public Animal{
 			cout<<"Cat meows."<<endl;
 		}
 };
+
+// Here both 'Class Dog' and 'Cat' are derived from 'Class Animal'
+
 int main(){
 
 Cat C;

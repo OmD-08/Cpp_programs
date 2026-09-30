@@ -25,6 +25,8 @@ class Child : public Parent{
 		}
 };
 
+// Here 'Class Grandparent' is derived from 'Class Parent' and 'Class Child' is derived from 'Class Parent'
+
 int main(){
 
 Child obj;

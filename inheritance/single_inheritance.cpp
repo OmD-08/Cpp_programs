@@ -8,7 +8,7 @@ class Parent{
 		}
 };
 
-class Child : public Parent{
+class Child : public Parent{  // 'Class Child' is derived from 'Class Parent'
 	public:
 		void showChild(){
 			cout<<"This is Child class."<<endl;

@@ -10,7 +10,7 @@ class Person{
 };
 
 //Derived Class 1(inherits virtually)
-class Employee : virtual public Person{
+class Employee : virtual public Person{  // 'Class Employee' is derived from 'Class Person'
 	public:
 		void showEmployee(){
 			cout<<"I am an Employee"<<endl;
@@ -18,7 +18,7 @@ class Employee : virtual public Person{
 };
 
 // Derived class 2 (inherits virtually)
-class Teacher : virtual public Person{
+class Teacher : virtual public Person{  // 'Class Teacher' is derived from 'Class Person'
 	public:
 		void showteacher(){
 			cout<<"I am a teacher."<<endl;
@@ -26,12 +26,26 @@ class Teacher : virtual public Person{
 }; 
 
 // Derived class 3 (inherits virtually from both Employee and Teacher)
-class Professor : public Employee , public Teacher{
+class Professor : public Employee , public Teacher{   // 'Class Professor' is derived from both 'Class Employee' and Class 'Class Teacher'  
 	public:
 		void showProfessor(){
 			cout<<"I am a proffessor "<<endl;
 		}
 };
+
+/*    
+			  Person
+			    ||
+			    \/
+           |------------|
+           ||          ||
+		   \/          \/
+         Employee     Teacher
+                  ||
+				  \/
+			  Professor 
+*/
+
 int main(){
 
 Professor obj;

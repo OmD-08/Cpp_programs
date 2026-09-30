@@ -15,7 +15,7 @@ class classB{
 		}
 };
 
-class classC : public classA, public classB{
+class classC : public classA, public classB{  // 'Class C' is derived from 2 classes :- 'Class A' and 'Class B'
 	public:
 		void displayC(){
 			displayA();
