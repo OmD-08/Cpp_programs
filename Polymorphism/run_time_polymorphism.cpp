@@ -25,7 +25,7 @@ class Cat: public Animal{
 
 int main(){
 
-Animal* a;  //Basse class pointer
+Animal* a;  //Base class pointer
 
 Dog d;
 Cat c;
