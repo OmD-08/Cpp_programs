@@ -9,3 +9,6 @@
 # Ignore temporary build outputs
 *.out
 *.log
+
+# Ignore txt files 
+*.txt
